@@ -1,7 +1,6 @@
 # NVMe Write Test
 
-There are NVMe cards on TigerGPU and Traverse. Not Della, Perseus or Adroit. They are ony useful when the block size
-of the write is sufficiently high in comparison to the other filesystems.
+There are NVMe cards on TigerGPU and Traverse. Not Della, Perseus or Adroit. They are only advantageous to the other filesystems when the block size of the write is sufficiently high.
 
 ```python
 import numpy as np
