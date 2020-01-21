@@ -15,7 +15,7 @@ myfile = '4GB.dat'
 N = 20_000_000
 x = np.random.random(N)
 
-# write the array to the different filesystems are record write times
+# write the array to the different filesystems and record write times
 results = []
 for path in paths:
   t0 = perf_counter()
